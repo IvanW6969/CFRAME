@@ -3,7 +3,7 @@ local goal = {
 CFrame = CFrame.new(5406.65234, 15.3857002, -4908.5166, 0.656729281, 1.576473e-08, -0.75412643, -9.69537695e-09, 1, 1.24614283e-08, 0.75412643, -8.72244887e-10, 0.656729281)
 }
 local tws = game:GetService("TweenService")
-local info = TweenInfo.new(15, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0, false, 0)
+local info = TweenInfo.new(45, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0, false, 0)
 
 local t = tws:Create(player.Character.HumanoidRootPart, info, goal)
 t:Play()
